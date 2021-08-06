@@ -1,0 +1,2 @@
+# Aprendizados da semana
+Essa primeira semana eu dividiria em duas partes, a primeira bem focada em conhecer melhor os nossos futuros desafios e como passar por eles e a segunda foi o começo dos desafios em si. Aprendemos bastante sobre as várias áreas da Labenu, sobre todo o suporte e respeito que eles têm e como conseguir de fato esse suporte. Na parte técnica, aprendemos muitas funções úteis do **terminal** e um pouquinho de como usar o **git**.
