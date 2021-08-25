@@ -1,0 +1,117 @@
+body
+{
+    margin: 0;
+    background-color: #D9D9D9;
+}
+.topo
+{
+	background-color: #003F63;
+    border-right: 3px solid #353D40;
+    border-left: 3px solid #353D40;
+    margin: 0px;
+    
+    
+    
+}
+
+.topo h1
+{
+    font-style: sans-serif;
+    color: #F2B138;
+    text-align: center;
+    margin: 0px auto 0px auto;
+    padding: 0;
+}
+.topo p
+{
+    color: #A1A5A6;
+    text-align: center;
+    margin: 0px;
+    padding: 5px 0px 20px 0px;
+}
+
+.menu
+{   
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+	background-color: #003F63;
+	border-bottom: 3px solid #353D40;
+	border-right: 3px solid #353D40;
+	border-left: 3px solid #353D40;
+    padding: 0;
+
+}
+
+.menu ul
+{
+    margin: 0px;
+}
+.menu ul li img
+{   
+    margin: 0;
+    padding: 0px;
+    width: 20%;
+}
+
+.menu ul li
+{	
+    padding-bottom: 0;
+	padding-right: 0%;
+	display: inline;
+	margin: 0px;
+}
+.menu li a
+{
+	text-decoration: none;
+
+	font-style: sans-serif;
+	padding: 16px;
+	align-items: center;
+	font-size: 200%;
+	color: #A1A5A6;
+    margin-bottom: 10%;
+
+}
+.menu ul li a:hover
+{	
+	color: #EBC26C;
+	
+	
+	
+}
+.rayssa
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
+}
+.rayssa img
+{
+    text-align: center;
+    width: 50%;
+    height: 50%;
+}
+
+div p
+{
+    text-align: center;
+    font-style: normal;
+
+}
+
+div div
+{
+    align-items: center;
+}
+
+div div img
+{
+    margin-left: 42%;
+    margin-bottom: 5%;
+    width: 15%;
+    height: 15%;
+}
