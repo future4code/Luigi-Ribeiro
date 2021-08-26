@@ -144,11 +144,14 @@ table tr td {
 table
 {
     width: 100%;
+    margin: 0 auto;
+    position: relative;
+    left: 11%;
 }
 table tr td button
 {
     position: relative;
-    Right: 5%;
+    
 }
 td button:hover
 {
