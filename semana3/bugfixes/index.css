@@ -88,6 +88,7 @@ div img {
     color: #c44f00;
     padding: 100px 0;
     font-size: 60px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 
@@ -140,6 +141,7 @@ table tr td img{
 }
 table tr td {
     width: 2%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 table
 {
