@@ -25,16 +25,14 @@ button:focus {
     color: white;
 }
 
-img {
-    width: 100px;
-}
+
 
 div>p:first-child {
     display: inline;
 }
 
 div img {
-    background: black;
+    background: rgb(255, 253, 253);
 }
 
 .botao-amarelo {
@@ -105,6 +103,7 @@ div:last-child {
 }
 
 table {
+    
     width: 120%;
 }
 
@@ -150,4 +149,14 @@ table tr td button
 {
     position: relative;
     Right: 5%;
+}
+td button:hover
+{
+    background-color: #ffaf43;
+    color: black;
+}
+td button:active
+{
+    background-color: #361f00;
+    color: rgb(212, 212, 212);
 }
