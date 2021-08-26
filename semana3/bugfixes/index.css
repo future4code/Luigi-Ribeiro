@@ -105,7 +105,7 @@ div:last-child {
 }
 
 table {
-    width: 60%;
+    width: 120%;
 }
 
 td button {
@@ -134,4 +134,20 @@ td button {
 
 #back-button:hover {
     background-color: #635a3d
+}
+
+table tr td img{
+    width: 40%;
+}
+table tr td {
+    width: 2%;
+}
+table
+{
+    width: 100%;
+}
+table tr td button
+{
+    position: relative;
+    Right: 5%;
 }
