@@ -50,12 +50,15 @@ div img {
     background-color: #c44f00;
 }
 
+#container-de-descricao
+{
+    padding-top: 12px;
+}
 .container {
     height: 500px;
     text-align: center;
 }
-
-.container a
+#container-para-comprar a
 {
     display: block;
 }
