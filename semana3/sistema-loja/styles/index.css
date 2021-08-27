@@ -1,0 +1,133 @@
+body
+{
+    margin: 0;
+    background-color: #D9D9D9;
+}
+.topo
+{
+	background: #D9D9D9;
+    border-top: 1px solid #084d3a;
+    border-right: 3px solid #084d3a;
+    border-left: 3px solid #084d3a;
+    margin: 0px;
+    
+    
+    
+    
+}
+
+.topo h1
+{
+    font-style: sans-serif;
+    color: #e79702;
+    text-align: center;
+    margin: 0px auto 0px auto;
+    padding: 0;
+}
+.topo p
+{
+    color: #545858;
+    text-align: center;
+    margin: 0px;
+    padding: 2px 0px 12px 0px;
+}
+
+.menu
+{   
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+	background-color: #003F63;
+	border-bottom: 3px solid #084d3a;
+	border-right: 3px solid #084d3a;
+	border-left: 3px solid #084d3a;
+    border-radius: 1px;
+    border-top: 1px solid #084d3a;
+    padding: 5px 0px;
+    position: sticky;
+    top: 0px;
+
+}
+
+.menu ul
+{
+    position: relative;
+    right: 20px;
+    margin: 0px;
+}
+.menu ul li img
+{   
+    margin: 0;
+    padding: 0px;
+    width: 20%;
+}
+
+.menu ul li
+{	
+    padding-bottom: 0;
+	padding-right: 0%;
+	display: inline;
+	margin: 0px;
+}
+.menu ul li a
+{
+	text-decoration: none;
+
+	font-style: sans-serif;
+	padding:  0 16px;
+	align-items: center;
+	font-size: 200%;
+	color: #cfd9db;
+    margin-bottom: 10%;
+}
+.menu ul li a:hover
+{	
+	color: #EBC26C;
+	border-bottom: #F2B138;
+	
+	
+}
+.rayssa
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.rayssa img
+{
+    text-align: center;
+    width: 50%;
+    height: 50%;
+}
+
+div p
+{
+    text-align: center;
+    font-style: normal;
+
+}
+
+.redes-sociais div
+{
+    align-items: center;
+}
+
+.redes-sociais div img
+{
+    position: relative;
+    left: 200px;
+    margin-left: 10%;
+    margin-bottom: 5%;
+    width: 10%;
+    height: 10%;
+    border-bottom: 2px #F2B138;
+    padding-bottom: 1px;
+}
+.redes-sociais div img :hover
+{
+    
+    border-bottom: 2px #F2B138;
+}
