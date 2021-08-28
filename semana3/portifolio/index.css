@@ -1,0 +1,224 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body
+{      
+    /*background-image: url(./img/fundo.jpg);
+    */
+    background-color:rgb(241, 225, 201) ;
+}
+.topo
+{
+    background-color:rgb(248, 237, 220);
+    border-bottom: rgb(49, 21, 21);
+}
+
+.topo ul
+{
+    position: relative;
+    left: 17%;
+    
+}
+.topo ul li
+{
+    margin-right: 15%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+}
+.topo ul li p
+{
+    color: #196e69;
+}
+
+.topo ul li h1
+
+{
+    color: #7D1935;
+}
+
+
+li
+{
+    display: inline-block;
+}
+.menu
+{   
+    position: sticky;
+    top: 0px;
+    padding: 1%;
+    background-color: #363535;
+    border-bottom: 10px rgb(49, 21, 21);
+    z-index: 1;
+}
+.menu img
+{
+    width: 15px;
+    height: 21px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    left: 395px;
+}
+#iniciomenu
+{   
+    
+    display: inline;
+    
+    
+    
+    
+}
+#iniciomenu a
+{   
+    
+    text-decoration: none;
+    color:blanchedalmond;
+    
+}
+
+#iniciomenu a:hover
+{   
+    
+    color:#7D1935 ;
+    
+}
+
+#finalmenu
+{
+    position: relative;
+    left: 69%;
+    display: inline;
+}
+
+#finalmenu li
+{
+    display: inline;
+    padding-right: 1%;
+    margin-right: 1% ;
+}
+
+
+.menu ul li a
+{
+    font-size: 150%;
+    
+    text-decoration: none;
+    color:blanchedalmond;
+} 
+.menu ul li a:hover
+{
+    color: #196e69;
+    
+}
+
+.corpoindex1
+{
+    width: 300px ; 
+    height: 280px;
+    background-color:#363535 ;
+    border-radius: 30px;
+    position: relative;
+    margin: 7% auto;
+}
+
+.corpoindex1 h2
+{   
+    position: relative;
+    top: 30px;
+    text-align: center;
+    color:rgb(252, 245, 235) ;
+}
+
+.corpoindex1 p
+{   
+    position: relative;
+    top: 90px;
+    text-align: center;
+    color: rgb(192, 187, 181);
+
+}
+
+.corpoindex2
+{
+    width: 300px ; 
+    height: 280px;
+    background-color:#2b524f ;
+    border-radius: 30px;
+    
+    position: relative;
+    bottom: 250px;
+    left: 40px;
+    
+}
+.corpoindex2 h3
+{   
+    position: relative;
+    top: 50px;
+    text-align: center;
+    color:rgb(252, 245, 235) ;
+}
+
+.corpoindex2 p
+{   
+    position: relative;
+    top: 90px;
+    text-align: center;
+    color: rgb(192, 187, 181);
+
+}
+
+.corpoindex3
+{
+    width: 300px ; 
+    height: 280px;
+    background-color:#612b3a ;
+    border-radius: 30px;
+    
+    position: relative;
+    bottom: 530px;
+    left: 760px;
+    
+}
+
+.corpoindex3 h3
+{   
+    position: relative;
+    top: 50px;
+    text-align: center;
+    color:rgb(252, 245, 235) ;
+}
+
+.corpoindex3 p
+{   
+    position: relative;
+    top: 90px;
+    text-align: center;
+    color: rgb(192, 187, 181);
+
+}
+.redessociais li a img
+{
+    width: 80px;
+    height: 80px;
+    margin: 0 10px;
+}
+.redessociais li a img:hover
+{
+    color: rgb(49, 21, 21);
+}
+.redessociais li img
+{
+    width: 80px;
+    height: 112px;
+}
+
+.redessociais 
+{
+    width: 300px;
+    position: relative;
+    bottom: 550px;
+    left: 410px;
+    
+}
