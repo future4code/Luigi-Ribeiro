@@ -18,7 +18,7 @@ body
 .topo ul
 {
     position: relative;
-    left: 17%;
+    left: 20%;
     
 }
 .topo ul li
@@ -59,7 +59,7 @@ li
     margin: 0;
     padding: 0;
     position: relative;
-    left: 395px;
+    left: 38.7%;
 }
 #iniciomenu
 {   
@@ -149,7 +149,7 @@ li
     
     position: relative;
     bottom: 250px;
-    left: 40px;
+    left: 10%;
     
 }
 .corpoindex2 h3
@@ -178,7 +178,7 @@ li
     
     position: relative;
     bottom: 530px;
-    left: 760px;
+    left: 67.5%;
     
 }
 
@@ -219,6 +219,20 @@ li
     width: 300px;
     position: relative;
     bottom: 550px;
-    left: 410px;
+    left: 40%;
     
+}
+
+.contato
+{   
+    width: 50%;
+    height: 90%;
+    background-color:#363535 ;
+    border-radius: 30px;
+    position: relative;
+    margin: 7% auto;
+}
+.contato
+{
+
 }
