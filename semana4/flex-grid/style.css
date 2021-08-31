@@ -38,7 +38,14 @@ img
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px;
+    padding: 10px 15px;
+}
+.esquedaitem
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
 }
 .cardapio
 {
@@ -75,4 +82,9 @@ footer
     background-color: mediumvioletred;
     align-items: center;
     justify-content: center;
+}
+
+h3
+{
+    padding: 0 10px;
 }
