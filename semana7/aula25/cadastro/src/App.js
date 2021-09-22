@@ -23,12 +23,12 @@ class App extends React.Component {
   }
   getAllUsers = () => {
     const url =
-      "https://us-central1-labenu-apis.cloudfunctions.net/labefy/playlists";
+      "https://us-central1-labenu-apis.cloudfunctions.net/labenusers/users";
     axios
       .get(url, headers)
       .then((res) => {
-        
-        this.setState({ usuarios: res.data.result.list});
+        console.log(res)
+        this.setState({ usuarios: res.data});
       })
       .catch((err) => {
         console.log(err.response);
@@ -49,6 +49,7 @@ class App extends React.Component {
   axios
     .post(url, body, headers)
     .then((res) => {
+      alert("usuario cadastrado com sucesso!")
       console.log(res);
     })
     .catch((err) => {
@@ -88,7 +89,7 @@ class App extends React.Component {
 
           <button onClick= {this.creatUsers}>Enviar</button>
         </div>
-        <div>{}</div>
+        <div>{usuariosListados}</div>
         
       </div>
     );
