@@ -1,23 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+
+import React, { useState, useEffect } from "react";
+import { Switch, Route, BrowserRouter} from 'react-router-dom'
+import axios from 'axios'
+import TripDetailsPage from './pages/TripDetailsPage'
+import LoginPage from './pages/LoginPage'
+import ListTripsPage from './pages/ListTripsPage'
+import HomePage from './pages/HomePage'
+import CreateTripPage from './pages/CreateTripPage'
+import AplicationFormPage from './pages/ApplicationFormPage'
+import AdminHomePage from './pages/AdminHomePage'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      
     </div>
   );
 }
