@@ -1,11 +1,13 @@
-
+import { goToFeed, goToLogin } from "../routes/cordinator"
+import { useHistory } from "react-router"
 
 const Header=()=>
-{
+{   
+    const history = useHistory()
     return (
         <div>
-            <h1>Cookenu</h1>
-            <button>Login</button>
+            <button onClick= {() => goToFeed(history)}>Cookenu</button>
+            <button onClick= {() => goToLogin(history)}>Login</button>
         </div>
     )
 }
