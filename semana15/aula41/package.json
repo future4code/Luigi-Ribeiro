@@ -1,0 +1,12 @@
+{
+  "name": "aula-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "Luigi Ribeiro",
+    "start": "clear && node ./index.js "
+  },
+  "author": "Luigi Ribeiro",
+  "license": "ISC"
+}
